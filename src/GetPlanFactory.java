@@ -13,6 +13,10 @@ public class GetPlanFactory {
        else if(planType.equalsIgnoreCase("INSTITUTIONALPLAN")) {  
              return new InstitutionalPlan();  
        }  
+       else if(planType.equalsIgnoreCase("STUDENTPLAN")) {  
+           return new StudentPlan();  
+     }  
+     
    return null;  
 }  
 }
